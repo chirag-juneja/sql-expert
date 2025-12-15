@@ -29,3 +29,7 @@ INSERT INTO albums (name, release_year, band_id)
 VALUES 
 ('Nightmare', 2018,2),
 ('Nightmare',NULL,5);
+
+-- INSERT Band without album
+INSERT INTO bands (name) VALUES
+('Audio Slave');
