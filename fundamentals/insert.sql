@@ -23,3 +23,9 @@ INSERT INTO albums (name, release_year, band_id) VALUES
 
 ('Bleach', 1989, 5),
 ('Nevermind', 1991, 5);
+
+-- Insert duplicate and NULL
+INSERT INTO albums (name, release_year, band_id)
+VALUES 
+('Nightmare', 2018,2),
+('Nightmare',NULL,5);

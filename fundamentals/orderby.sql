@@ -1,7 +1,3 @@
 SELECT * FROM bands ORDER BY name;
 
 SELECT * FROM bands ORDER BY name DESC;
-
-SELECT * FROM albums;
-
-SELECT DISTINCT name FROM albums;
