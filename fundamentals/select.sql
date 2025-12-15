@@ -1,1 +1,5 @@
-SELECT first_name, last_name, email FROM customer;
+SELECT * FROM bands;
+
+SELECT * FROM bands LIMIT 2;
+
+SELECT name FROM bands;
